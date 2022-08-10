@@ -11,12 +11,17 @@ target/
 # Web IDE, App Studio
 .che/
 .gen/
-
+.settings/
+.project
+.classpath
+openapi.json
+schema.sql
+schema-nomocks.sql
 # MTA
 *_mta_build_tmp
 *.mtar
 mta_archives/
-
+edmx/
 # Other
 .DS_Store
 *.orig
